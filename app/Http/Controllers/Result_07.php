@@ -38,7 +38,7 @@ $toRead=[];
 $notRead=$books;
 for ($i=0; $i <$request->number ; $i++) { 
         if ($books[$RanNum[$i]]==$books[$RanNum[$i]]) {
-            array_push($toRead ,$books[$i]);
+            array_push($toRead ,$books[$RanNum[$i]]);
             unset($notRead[$i]);
     }
 
